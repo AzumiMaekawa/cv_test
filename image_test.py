@@ -11,6 +11,7 @@ y = [200, 500, 200, 500]
 # 赤い星マークで描画する
 plot(x, y, 'r*')
 
+# 最初の２点に線
 plot(x[:2], y[:2])
 
 title('Plottting: "lena.png"')
